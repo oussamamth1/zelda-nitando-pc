@@ -1,0 +1,19 @@
+# Ignore everything by default; only mods/ and specific config files are tracked (see below)
+/*
+
+# Re-include files we want to track
+!.gitignore
+!README.md
+!mods/
+!shipofharkinian.json
+!speedrun_settings_backup.json
+!imgui.ini
+!SoHTimeSplitData.json
+
+# Never track these even if added above
+*.z64
+*.o2r
+*.exe
+*.pdb
+*.sav
+*.log
